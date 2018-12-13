@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Examen DIW 1 Robert Baluta</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="titulo">
+        <h2>Nuevo Libro</h2><span class="iconos" id="libro"></span>
+      </div>
+      <form class="" id="crear" action="#" method="post">
+        <label for="titulo">Titulo:</label>
+        <input class="texto" type="text" name="titulo" value="">
+        <br><br>
+        <label for="autor">Autor:</label>
+        <input class="texto" type="text" name="autor" value="">
+        <br><br>
+        <label for="isbn">ISBN:</label>
+        <input class="texto" type="number" name="isbn" value="">
+        <br><br>
+        <p>Generos:</p>
+        <div id="checkbox" class="">
+          <input class="check" type="checkbox" name="generos" value="policiaca">Policiaca
+          <input class="check" type="checkbox" name="generos" value="historica">Historica
+          <input class="check" type="checkbox" name="generos" value="cienciaficcion">Ciencia Ficcion<br>
+          <input class="check" type="checkbox" name="generos" value="fantasia">Fantasia
+          <input class="check" type="checkbox" name="generos" value="romantica">Romantica
+        </div>
+        <br>
+        <button type="button" class="boton" id="snd" name="button">Añadir</button>
+      </form>
+    </div>
+    <div class="box">
+      <div class="titulo">
+        <h2>Consultar Datos</h2><div class="iconos" id="lupa"></div>
+      </div>
+      <form class="" id="consultar" action="index.html" method="post">
+        <label for="titulo">Titulo:</label>
+        <input class="texto" type="text" name="titulo" value=""><br><br>
+        <label for="autor">Autor:</label>
+        <input class="textomedio" type="text" name="autor" value="">
+        <label  for="isbn">ISBN:</label>
+        <input class="textomedio" type="number" name="isbn" value=""><br><br>
+        <label for="generos">Generos:</label><br><br>
+        <div class="generos" id="lista-generos">
+
+        </div>
+        <label for="isbn">Prestado a:</label><br>
+        <input class="texto" type="text" name="prestado" value=""><br><br>
+        <button type="button" name="button" id="pst">Prestar</button>
+        <button type="button" name="button" id="dvl">Devolver</button>
+      </form>
+    </div>
+    <div class="box">
+      <div class="titulo">
+        <h2>Disponibles</h2><div class="iconos" id="disponibles"></div>
+      </div>
+      <div class="disponibles" id="lista-disponibles">
+        <p class="creado">Esto es un libro</p>
+        <p class="devuelto">Si, es un libro</p>
+        <p class="seleccionado">Si, es un libro pero de batman</p>
+        <p>No esta ni seleccionado ni nada</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="titulo">
+        <h2>Prestamos</h2><div class="iconos" id="prestamos"></div>
+      </div>
+      <div class="prestamos">
+        <p class="prestado">Esto es un libro pero de spaidermen</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+body{
+  background-color: white;
+  width: 100%;
+}
+
+.sprite{
+  background-image:url(iconos.png);
+  background-repeat: no-repeat;
+  display:block;
+  width: 36px;
+  height:36px;
+}
+
+h1{
+  margin-left: 10px;
+}
+
+.nuevo{
+  background-color: lightblue;
+  border: 1px solid black;
+  display: inline-block;
+  float:left;
+  width: 48%;
+  height: 450px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.sprite-libro{
+  background-position: -36px -396px;
+}
+
+.inicio{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 28%;
+}
+
+form{
+  margin-left: 10px;
+}
+
+label{
+  margin-right: 20px;
+}
+
+input:hover{
+  border: 1px solid red;
+  background-color: #ffc6d6;
+}
+
+input .mal{
+  border: 1px solid red;
+  background-color: #ffc6d6;
+}
+
+#titulo{
+  width: 80%;
+  border: 1px solid lightgrey;
+}
+
+.titulo{
+  padding-bottom: 20px;
+}
+
+#autor1{
+  width: 80%;
+  border: 1px solid lightgrey;
+}
+
+.autor{
+  padding-bottom: 20px;
+}
+
+#isbn1{
+  width: 80%;
+  border: 1px solid lightgrey;
+}
+
+.isbn{
+  padding-bottom: 20px;
+}
+
+.checkbox:hover{
+  background-color: #ffc6d6;
+  border: 1px solid red;
+}
+
+#genero{
+  margin-bottom: 20px;
+}
+
+.checkbox{
+  margin-top: 20px;
+  max-width:400px;
+  min-width: : 45%;
+  padding: 10px;
+}
+
+.check{
+  margin:10px;
+}
+
+.submit{
+  float: right;
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.datos{
+  background-color: lightblue;
+  border: 1px solid black;
+  float:left;
+  width: 50%;
+  height: 450px;
+  margin-bottom: 5px;
+}
+
+.sprite-lupa{
+  background-position: -432px -286px;
+}
+
+.a-i{
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#autor2{
+  border: 1px solid lightgrey;
+  width: 60%;
+}
+
+#isbn2{
+  border: 1px solid lightgrey;
+  width: 60%;
+}
+
+.genero{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+textarea{
+  border: 1px solid lightgrey;
+  margin-left: 20%;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+#prest{
+  border: 1px solid lightgrey;
+  width:80%;
+  margin-bottom: 20px;
+}
+
+.disponibles{
+  background-color: lightblue;
+  border: 1px solid black;
+  float:left;
+  display: inline-block;
+  width: 48%;
+  height: 450px;
+  margin-right: 10px;
+}
+
+.sprite-agenda{
+  background-position: -324px -36px;
+}
+
+.libros{
+  background-color: white;
+  margin: 10px;
+  height: 200px;
+}
+
+ul li{
+  list-style-type: none;
+  padding: 5px;
+  margin-left: -40px;
+}
+
+ul li:hover{
+  background-color: lightgrey;
+  border: 1px solid grey;
+}
+
+.creado{
+  background-color: lightgreen;
+  border: 1px solid green;
+}
+
+.devuelto{
+  background-color: #ddaff7;
+  border: 1px solid purple;
+}
+
+.seleccionado{
+  background-color: #b3cafc;
+  border:1px solid blue;
+}
+
+.prestamos{
+  background-color: lightblue;
+  border: 1px solid black;
+  float:left;
+  display: inline-block;
+  width: 50%;
+  height: 450px;
+}
+
+.sprite-prestamo{
+  background-position: -468px -250px;
+}
+
+.prestado{
+  background-color: #ffc6d6;
+  border: 1px solid red;
+}

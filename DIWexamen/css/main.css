@@ -1,0 +1,133 @@
+.box{
+  width: 44vw;
+  height: 350px;
+  background-color: lightblue;
+  float: left;
+  margin: 10px;
+  border: 1px solid blue;
+  padding: 20px
+}
+
+.titulo{
+  margin-left: 40%;
+  display: inline-block;
+  height: auto;
+}
+.titulo h2{
+  float: left;
+}
+.iconos{
+  margin-top: 20px;
+margin-left: 5px;
+  float: left;
+  width: 30px;
+  height: 30px;
+  background-image: url('../img/iconos.png');
+  background-repeat: no-repeat;
+}
+
+#libro{
+  background-position: -40px -400px;
+}
+
+#lupa{
+  background-position: -435px -290px;
+}
+
+#disponibles{
+  background-position: -328px -40px;
+}
+
+#prestamos{
+  background-position: -470px -253px;
+}
+
+#lista-disponibles{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.eskere{
+  text-decoration: underline;
+  color: red;
+}
+
+.texto{
+  width: 90%;
+}
+.textomedio{
+  width: 40%;
+}
+.boton{
+  float: right;
+  margin-left: 30px;
+}
+
+.generos{
+  margin: 0px auto;
+  width: 80%;
+  height: 60px;
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.disponibles{
+  margin: 0px auto;
+  width: 100%;
+  height: 250px;
+  background-color: white;
+}
+.disponibles p{
+  width: 99%;
+  height: 20px;
+  padding: 3px;
+  margin-top: 0px;
+}
+
+.creado{
+  background-color: green;
+  border: 1px solid black;
+}
+
+.devuelto{
+  background-color: violet;
+  border: 1px solid black;
+}
+.prestado{
+  background-color: pink;
+  border: 1px solid red;
+}
+.seleccionado{
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.disponibles p:hover{
+  background-color: grey;
+  border: 1px solid black;
+}
+.prestamos{
+  margin: 0px auto;
+  width: 100%;
+  height: 250px;
+  background-color: white;
+}
+
+.check{
+  margin: 10px;
+}
+
+.prestamos p{
+  margin-top: 0px;
+  width: 99%;
+  height: 20px;
+  padding: 3px;
+}
+.prestamos p:hover{
+  background-color: grey;
+  border: 1px solid black;
+}
+.rojo{
+  background-color: pink;
+  border: 1px solid red;
+}

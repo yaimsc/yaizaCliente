@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Examen Yaiza</title>
+    <link rel="stylesheet" href="examen.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+    <div class="nuevo">
+      <div class="inicio">
+        <h1>Nuevo Libro</h1>
+        <i class="sprite sprite-libro"></i>
+      </div>
+      <form action="#" method="post" id="addform">
+        <div class="titulo">
+          <label>Titulo:</label>
+          <input id="titulo" type="text" name="titulo">
+        </div>
+        <div class="autor">
+          <label>Autor:</label>
+          <input id="autor1" type="text" name="autor">
+        </div>
+        <div class="isbn">
+          <label>ISBN:</label>
+          <input id="isbn1" type="number" name="isbn">
+        </div>
+        <div class="generos">
+          <label id="genero">Generos:</label>
+          <div class="checkbox">
+            <input class="check" type="checkbox" name="genero" value="Policiaca"><label>Policiaca</label>
+            <input class="check" type="checkbox" name="genero" value="Historica"><label>Historica</label>
+            <input class="check" type="checkbox" name="genero" value="Ciencia Ficción"><label>Ciencia Ficción</label>
+            <input class="check" type="checkbox" name="genero" value="Fantastica"><label>Fantastica</label>
+            <input class="check" type="checkbox" name="genero" value="romantica"><label>Romantica</label>
+          </div>
+        </div>
+        <button class="submit" id="add">Añadir</button>
+      </form>
+    </div>
+
+    <div class="datos">
+      <div class="inicio">
+        <h1>Consultar Datos</h1>
+        <i class="sprite sprite-lupa"></i>
+      </div>
+      <form class="" action="index.html" method="post">
+        <div class="titulo">
+          <label>Titulo:</label>
+          <input id="titulo" type="text" name="titulo">
+        </div>
+        <div class="a-i">
+          <div class="autor">
+            <label>Autor:</label>
+            <input id="autor2" type="text" name="autor">
+          </div>
+          <div class="isbn">
+            <label>ISBN:</label>
+            <input id="isbn2" type="number" name="isbn" value="ad23">
+          </div>
+        </div>
+        <div class="genero">
+          <label id="genero">Generos:</label>
+          <textarea name="genero" rows="6" cols="80"></textarea>
+        </div>
+        <div class="prest">
+          <label>Prestado a:</label>
+          <input id="prest" type="text" name="prestado" value="">
+        </div>
+
+        <button>Prestar</button>
+        <button>Devolver</button>
+      </form>
+    </div>
+
+    <div class="disponibles">
+      <div class="inicio">
+        <h1>Disponibles</h1>
+        <i class="sprite sprite-agenda"></i>
+      </div>
+      <div class="libros">
+        <ul>
+          <li>El Señor de Los Anillos</li>
+          <li class="creado">Chacal(creado)</li>
+          <li class="devuelto">Philip Marlowe: Adiós Muñeca (devuleto)</li>
+          <li class="seleccionado">El cementerio de Praga (seleccionado)</li>
+          <li>La princesa prometida</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="prestamos">
+      <div class="inicio">
+        <h1>Préstamos</h1>
+        <i class="sprite sprite-prestamo"></i>
+      </div>
+      <div class="libros">
+        <ul>
+          <li class="prestado">El Aprendiz de Guerrero (prestado)</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  </body>
+</html>
